@@ -7,6 +7,7 @@ skip-lint = false
 
 [programs.localnet]
 savings_mxe = "qbYMA7y6zaeqxFo82VBTbmGU7kEpXgMNWm6wo7DHxdR"
+savings_goal = "7yqGsfLu8hYo4ugmTC43KR8iTY7JxtLFeCoSDoRkMY47"
 
 [registry]
 url = "https://api.apr.dev"
