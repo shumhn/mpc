@@ -1,13 +1,18 @@
 use anchor_lang::prelude::*;
 use arcium_anchor::prelude::*;
+use anchor_lang::solana_program::pubkey;
 
 // Computation definition offsets for each circuit
-const COMP_DEF_OFFSET_ADD_TWO: u32 = comp_def_offset("add_two_contributions");
-const COMP_DEF_OFFSET_CHECK_GOAL: u32 = comp_def_offset("check_goal_reached");
-const COMP_DEF_OFFSET_REVEAL_5: u32 = comp_def_offset("reveal_contributions_5");
-const COMP_DEF_OFFSET_REVEAL_10: u32 = comp_def_offset("reveal_contributions_10");
+// CRITICAL: Must match EXACT #[instruction] function names in encrypted-ixs/src/lib.rs
+const COMP_DEF_OFFSET_ADD_TWO: u32 = comp_def_offset("add_two_contributions_v4");
+const COMP_DEF_OFFSET_CHECK_GOAL: u32 = comp_def_offset("check_goal_reached_v4");
+const COMP_DEF_OFFSET_REVEAL_5: u32 = comp_def_offset("reveal_contributions_5_v4");
+const COMP_DEF_OFFSET_REVEAL_10: u32 = comp_def_offset("reveal_contributions_10_v4");
 
-declare_id!("qbYMA7y6zaeqxFo82VBTbmGU7kEpXgMNWm6wo7DHxdR");
+// MXE authority (wallet that initialized the MXE)
+const MXE_AUTHORITY: Pubkey = pubkey!("HmxiRU21VKdhgmjSWkujqreCaSayCVW1p9EmtHrvfzoT");
+
+declare_id!("4rWRT9mgwWdz9GDpsYeZPZ6arBPCsjG2rquAbLpxGa4i");
 
 #[arcium_program]
 pub mod savings_mxe {
@@ -15,22 +20,22 @@ pub mod savings_mxe {
 
     // Initialize computation definitions
     pub fn init_add_two_contributions_comp_def(ctx: Context<InitAddTwoCompDef>) -> Result<()> {
-        init_comp_def(ctx.accounts, true, 0, None, None)?;
+        init_comp_def(ctx.accounts, true, 0, None, Some(MXE_AUTHORITY))?;
         Ok(())
     }
 
     pub fn init_check_goal_reached_comp_def(ctx: Context<InitCheckGoalCompDef>) -> Result<()> {
-        init_comp_def(ctx.accounts, true, 0, None, None)?;
+        init_comp_def(ctx.accounts, true, 0, None, Some(MXE_AUTHORITY))?;
         Ok(())
     }
 
     pub fn init_reveal_contributions_5_comp_def(ctx: Context<InitReveal5CompDef>) -> Result<()> {
-        init_comp_def(ctx.accounts, true, 0, None, None)?;
+        init_comp_def(ctx.accounts, true, 0, None, Some(MXE_AUTHORITY))?;
         Ok(())
     }
 
     pub fn init_reveal_contributions_10_comp_def(ctx: Context<InitReveal10CompDef>) -> Result<()> {
-        init_comp_def(ctx.accounts, true, 0, None, None)?;
+        init_comp_def(ctx.accounts, true, 0, None, Some(MXE_AUTHORITY))?;
         Ok(())
     }
 
@@ -56,18 +61,18 @@ pub mod savings_mxe {
             computation_offset,
             args,
             None,
-            vec![AddTwoContributionsCallback::callback_ix(&[])],
+            vec![AddTwoContributionsV4Callback::callback_ix(&[])],
         )?;
         Ok(())
     }
 
-    #[arcium_callback(encrypted_ix = "add_two_contributions")]
-    pub fn add_two_contributions_callback(
-        ctx: Context<AddTwoContributionsCallback>,
-        output: ComputationOutputs<AddTwoContributionsOutput>,
+    #[arcium_callback(encrypted_ix = "add_two_contributions_v4")]
+    pub fn add_two_contributions_v4_callback(
+        ctx: Context<AddTwoContributionsV4Callback>,
+        output: ComputationOutputs<AddTwoContributionsV4Output>,
     ) -> Result<()> {
         let result = match output {
-            ComputationOutputs::Success(AddTwoContributionsOutput { field_0 }) => field_0,
+            ComputationOutputs::Success(AddTwoContributionsV4Output { field_0 }) => field_0,
             _ => return Err(ErrorCode::AbortedComputation.into()),
         };
 
@@ -99,30 +104,30 @@ pub mod savings_mxe {
             computation_offset,
             args,
             None,
-            vec![CheckGoalReachedCallback::callback_ix(&[])],
+            vec![CheckGoalReachedV4Callback::callback_ix(&[])],
         )?;
         Ok(())
     }
 
-    #[arcium_callback(encrypted_ix = "check_goal_reached")]
-    pub fn check_goal_reached_callback(
-        ctx: Context<CheckGoalReachedCallback>,
-        output: ComputationOutputs<CheckGoalReachedOutput>,
+    #[arcium_callback(encrypted_ix = "check_goal_reached_v4")]
+    pub fn check_goal_reached_v4_callback(
+        ctx: Context<CheckGoalReachedV4Callback>,
+        output: ComputationOutputs<CheckGoalReachedV4Output>,
     ) -> Result<()> {
-        let result = match output {
-            ComputationOutputs::Success(CheckGoalReachedOutput { field_0 }) => field_0,
+        let reached = match output {
+            ComputationOutputs::Success(CheckGoalReachedV4Output { field_0 }) => field_0,
             _ => return Err(ErrorCode::AbortedComputation.into()),
         };
 
         emit!(GoalCheckEvent {
-            reached: result,
+            reached: reached,
         });
         Ok(())
     }
 }
 
 // Account Structs
-#[queue_computation_accounts("add_two_contributions", payer)]
+#[queue_computation_accounts("add_two_contributions_v4", payer)]
 #[derive(Accounts)]
 #[instruction(computation_offset: u64)]
 pub struct AddTwoContributions<'info> {
@@ -160,9 +165,9 @@ pub struct AddTwoContributions<'info> {
     pub arcium_program: Program<'info, Arcium>,
 }
 
-#[callback_accounts("add_two_contributions")]
+#[callback_accounts("add_two_contributions_v4")]
 #[derive(Accounts)]
-pub struct AddTwoContributionsCallback<'info> {
+pub struct AddTwoContributionsV4Callback<'info> {
     pub arcium_program: Program<'info, Arcium>,
     #[account(address = derive_comp_def_pda!(COMP_DEF_OFFSET_ADD_TWO))]
     pub comp_def_account: Account<'info, ComputationDefinitionAccount>,
@@ -171,7 +176,7 @@ pub struct AddTwoContributionsCallback<'info> {
     pub instructions_sysvar: AccountInfo<'info>,
 }
 
-#[init_computation_definition_accounts("add_two_contributions", payer)]
+#[init_computation_definition_accounts("add_two_contributions_v4", payer)]
 #[derive(Accounts)]
 pub struct InitAddTwoCompDef<'info> {
     #[account(mut)]
@@ -185,7 +190,7 @@ pub struct InitAddTwoCompDef<'info> {
     pub system_program: Program<'info, System>,
 }
 
-#[queue_computation_accounts("check_goal_reached", payer)]
+#[queue_computation_accounts("check_goal_reached_v4", payer)]
 #[derive(Accounts)]
 #[instruction(computation_offset: u64)]
 pub struct CheckGoalReached<'info> {
@@ -223,9 +228,9 @@ pub struct CheckGoalReached<'info> {
     pub arcium_program: Program<'info, Arcium>,
 }
 
-#[callback_accounts("check_goal_reached")]
+#[callback_accounts("check_goal_reached_v4")]
 #[derive(Accounts)]
-pub struct CheckGoalReachedCallback<'info> {
+pub struct CheckGoalReachedV4Callback<'info> {
     pub arcium_program: Program<'info, Arcium>,
     #[account(address = derive_comp_def_pda!(COMP_DEF_OFFSET_CHECK_GOAL))]
     pub comp_def_account: Account<'info, ComputationDefinitionAccount>,
@@ -234,7 +239,7 @@ pub struct CheckGoalReachedCallback<'info> {
     pub instructions_sysvar: AccountInfo<'info>,
 }
 
-#[init_computation_definition_accounts("check_goal_reached", payer)]
+#[init_computation_definition_accounts("check_goal_reached_v4", payer)]
 #[derive(Accounts)]
 pub struct InitCheckGoalCompDef<'info> {
     #[account(mut)]
@@ -248,7 +253,7 @@ pub struct InitCheckGoalCompDef<'info> {
     pub system_program: Program<'info, System>,
 }
 
-#[init_computation_definition_accounts("reveal_contributions_5", payer)]
+#[init_computation_definition_accounts("reveal_contributions_5_v4", payer)]
 #[derive(Accounts)]
 pub struct InitReveal5CompDef<'info> {
     #[account(mut)]
@@ -262,7 +267,7 @@ pub struct InitReveal5CompDef<'info> {
     pub system_program: Program<'info, System>,
 }
 
-#[init_computation_definition_accounts("reveal_contributions_10", payer)]
+#[init_computation_definition_accounts("reveal_contributions_10_v4", payer)]
 #[derive(Accounts)]
 pub struct InitReveal10CompDef<'info> {
     #[account(mut)]

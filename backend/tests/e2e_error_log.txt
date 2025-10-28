@@ -1,0 +1,36 @@
+yarn run v1.22.22
+$ /Users/sumangiri/Desktop/mpc/backend/node_modules/.bin/ts-mocha -p ./tsconfig.json -t 600000 tests/mxe_e2e.ts --grep aggregates
+(node:65618) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/sumangiri/Desktop/mpc/backend/tests/mxe_e2e.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/sumangiri/Desktop/mpc/backend/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+  MXE E2E
+
+📋 Account Addresses for add_two_contributions:
+  computationOffset: 13283454993509001236
+  computationAccount: 9SGmFCSs91ecdq5J5pPnSBbfAzQNFfSPvR3byLnTP1jd
+  clusterAccount: GgSqqAyH7AVY3Umcv8NvncrjFaNJuQLmxzxFxPoPW2Yd
+  mxeAccount: G8xQgM6XgiU18brB7QnuL2R1WpXF8VnnCEjbr1Dtyo76
+  mempoolAccount: 7CQzM9v2PRZ6wUj2PYqYLJhFBv2S9UCLLW3wkFSUaqYT
+  executingPool: 7dig3tRC2r6L79EyEtWqen5F8Tgo5s8mTKsBnuCvxbFD
+  compDefAccount: F6UyQ6vnRH1yYkxbABkicfoPvQTXpWjJFZ3LPbEV4EFh
+  signPdaAccount: CBpcVsYDtzT3Xej1c5kAcm77aB5DYaNB7qRDntZ5nn3g
+
+add_two_contributions RPC failed: Unknown action 'undefined'
+    1) aggregates two encrypted values and checks goal
+
+
+  0 passing (3s)
+  1 failing
+
+  1) MXE E2E
+       aggregates two encrypted values and checks goal:
+     Error: Unknown action 'undefined'
+      at AnchorProvider.sendAndConfirm (node_modules/@coral-xyz/anchor/src/provider.ts:190:31)
+      at processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at MethodsBuilder.rpc [as _rpcFn] (node_modules/@coral-xyz/anchor/src/program/namespace/rpc.ts:29:16)
+
+
+

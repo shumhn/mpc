@@ -1,0 +1,3432 @@
+Checking if encrypted instructions are up to date.
+Encrypted instructions are up to date. Skipping build.
+warning: unexpected `cfg` condition value: `custom-heap`
+ --> programs/savings_goal/src/lib.rs:5:1
+  |
+5 | #[program]
+  | ^^^^^^^^^^
+  |
+  = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+  = help: consider adding `custom-heap` as a feature in `Cargo.toml`
+  = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+  = note: `#[warn(unexpected_cfgs)]` on by default
+  = note: this warning originates in the macro `$crate::custom_heap_default` which comes from the expansion of the attribute macro `program` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `custom-panic`
+ --> programs/savings_goal/src/lib.rs:5:1
+  |
+5 | #[program]
+  | ^^^^^^^^^^
+  |
+  = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+  = help: consider adding `custom-panic` as a feature in `Cargo.toml`
+  = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+  = note: this warning originates in the macro `$crate::custom_panic_default` which comes from the expansion of the attribute macro `program` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+ --> programs/savings_goal/src/lib.rs:5:1
+  |
+5 | #[program]
+  | ^^^^^^^^^^
+  |
+  = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+  = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+  = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+  = note: this warning originates in the attribute macro `program` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+ --> programs/savings_goal/src/lib.rs:5:1
+  |
+5 | #[program]
+  | ^^^^^^^^^^
+  |
+  = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+  = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+  = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+  = note: this warning originates in the derive macro `Accounts` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+   --> programs/savings_goal/src/lib.rs:208:10
+    |
+208 | #[derive(Accounts)]
+    |          ^^^^^^^^
+    |
+    = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+    = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+    = note: this warning originates in the derive macro `Accounts` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+   --> programs/savings_goal/src/lib.rs:224:10
+    |
+224 | #[derive(Accounts)]
+    |          ^^^^^^^^
+    |
+    = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+    = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+    = note: this warning originates in the derive macro `Accounts` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+   --> programs/savings_goal/src/lib.rs:237:10
+    |
+237 | #[derive(Accounts)]
+    |          ^^^^^^^^
+    |
+    = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+    = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+    = note: this warning originates in the derive macro `Accounts` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+   --> programs/savings_goal/src/lib.rs:254:10
+    |
+254 | #[derive(Accounts)]
+    |          ^^^^^^^^
+    |
+    = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+    = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+    = note: this warning originates in the derive macro `Accounts` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+   --> programs/savings_goal/src/lib.rs:265:10
+    |
+265 | #[derive(Accounts)]
+    |          ^^^^^^^^
+    |
+    = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+    = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+    = note: this warning originates in the derive macro `Accounts` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+   --> programs/savings_goal/src/lib.rs:284:10
+    |
+284 | #[derive(Accounts)]
+    |          ^^^^^^^^
+    |
+    = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+    = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+    = note: this warning originates in the derive macro `Accounts` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: use of deprecated method `anchor_lang::prelude::AccountInfo::<'a>::realloc`: Use AccountInfo::resize() instead
+ --> programs/savings_goal/src/lib.rs:5:1
+  |
+5 | #[program]
+  | ^^^^^^^^^^
+  |
+  = note: `#[warn(deprecated)]` on by default
+  = note: this warning originates in the attribute macro `program` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: `savings_goal` (lib) generated 16 warnings (5 duplicates)
+    Finished `release` profile [optimized] target(s) in 0.39s
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.52s
+     Running unittests src/lib.rs (/Users/sumangiri/Desktop/final/mpc/backend/target/debug/deps/savings_goal-c68e32eb8120370e)
+Error: Function _ZN109_$LT$arcium_client..idl..arcium..utils..Account$u20$as$u20$core..convert..TryFrom$LT$$RF$$u5b$u8$u5d$$GT$$GT$8try_from17h78842f5c6b6d78d9E Stack offset of 721512 exceeded max offset of 4096 by 717416 bytes, please minimize large stack variables. Estimated function frame size: 721536 bytes. Exceeding the maximum stack offset may cause undefined behavior during execution.
+
+warning: unexpected `cfg` condition value: `custom-heap`
+  --> programs/savings_mxe/src/lib.rs:17:1
+   |
+17 | #[arcium_program]
+   | ^^^^^^^^^^^^^^^^^
+   |
+   = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+   = help: consider adding `custom-heap` as a feature in `Cargo.toml`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+   = note: `#[warn(unexpected_cfgs)]` on by default
+   = note: this warning originates in the macro `$crate::custom_heap_default` which comes from the expansion of the attribute macro `program` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `custom-panic`
+  --> programs/savings_mxe/src/lib.rs:17:1
+   |
+17 | #[arcium_program]
+   | ^^^^^^^^^^^^^^^^^
+   |
+   = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+   = help: consider adding `custom-panic` as a feature in `Cargo.toml`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+   = note: this warning originates in the macro `$crate::custom_panic_default` which comes from the expansion of the attribute macro `program` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+  --> programs/savings_mxe/src/lib.rs:17:1
+   |
+17 | #[arcium_program]
+   | ^^^^^^^^^^^^^^^^^
+   |
+   = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+   = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+   = note: this warning originates in the attribute macro `program` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+  --> programs/savings_mxe/src/lib.rs:17:1
+   |
+17 | #[arcium_program]
+   | ^^^^^^^^^^^^^^^^^
+   |
+   = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+   = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+   = note: this warning originates in the derive macro `Accounts` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+   --> programs/savings_mxe/src/lib.rs:131:10
+    |
+131 | #[derive(Accounts)]
+    |          ^^^^^^^^
+    |
+    = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+    = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+    = note: this warning originates in the derive macro `Accounts` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+   --> programs/savings_mxe/src/lib.rs:169:10
+    |
+169 | #[derive(Accounts)]
+    |          ^^^^^^^^
+    |
+    = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+    = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+    = note: this warning originates in the derive macro `Accounts` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+   --> programs/savings_mxe/src/lib.rs:180:10
+    |
+180 | #[derive(Accounts)]
+    |          ^^^^^^^^
+    |
+    = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+    = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+    = note: this warning originates in the derive macro `Accounts` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+   --> programs/savings_mxe/src/lib.rs:194:10
+    |
+194 | #[derive(Accounts)]
+    |          ^^^^^^^^
+    |
+    = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+    = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+    = note: this warning originates in the derive macro `Accounts` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+   --> programs/savings_mxe/src/lib.rs:232:10
+    |
+232 | #[derive(Accounts)]
+    |          ^^^^^^^^
+    |
+    = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+    = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+    = note: this warning originates in the derive macro `Accounts` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+   --> programs/savings_mxe/src/lib.rs:243:10
+    |
+243 | #[derive(Accounts)]
+    |          ^^^^^^^^
+    |
+    = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+    = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+    = note: this warning originates in the derive macro `Accounts` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+   --> programs/savings_mxe/src/lib.rs:257:10
+    |
+257 | #[derive(Accounts)]
+    |          ^^^^^^^^
+    |
+    = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+    = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+    = note: this warning originates in the derive macro `Accounts` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+   --> programs/savings_mxe/src/lib.rs:271:10
+    |
+271 | #[derive(Accounts)]
+    |          ^^^^^^^^
+    |
+    = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+    = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+    = note: this warning originates in the derive macro `Accounts` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: use of deprecated method `anchor_lang::prelude::AccountInfo::<'a>::realloc`: Use AccountInfo::resize() instead
+  --> programs/savings_mxe/src/lib.rs:17:1
+   |
+17 | #[arcium_program]
+   | ^^^^^^^^^^^^^^^^^
+   |
+   = note: `#[warn(deprecated)]` on by default
+   = note: this warning originates in the attribute macro `program` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: constant `COMP_DEF_OFFSET_REVEAL_5` is never used
+ --> programs/savings_mxe/src/lib.rs:9:7
+  |
+9 | const COMP_DEF_OFFSET_REVEAL_5: u32 = comp_def_offset("reveal...
+  |       ^^^^^^^^^^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(dead_code)]` on by default
+
+warning: constant `COMP_DEF_OFFSET_REVEAL_10` is never used
+  --> programs/savings_mxe/src/lib.rs:10:7
+   |
+10 | const COMP_DEF_OFFSET_REVEAL_10: u32 = comp_def_offset("reve...
+   |       ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: `savings_mxe` (lib) generated 20 warnings (5 duplicates)
+    Finished `release` profile [optimized] target(s) in 0.31s
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.23s
+     Running unittests src/lib.rs (/Users/sumangiri/Desktop/final/mpc/backend/target/debug/deps/savings_mxe-6a2dc68da4647399)
+Removed artifacts/reveal_contributions_5_v4_raw_circuit_0.json
+Removed artifacts/wallet_acc_2AMC_Nfry.json
+Removed artifacts/arx_ata_2AMC_Nfry.json
+Removed artifacts/arcium_clock.json
+Removed artifacts/wallet_acc_callback_Gax5_kcue.json
+Removed artifacts/operator_acc_HXm3_rnSc.json
+Removed artifacts/arcium_fee_pool.json
+Removed artifacts/wallet_acc_callback_LiZU_S38Z.json
+Removed artifacts/mxe_keygen_comp.json
+Removed artifacts/executing_pool_acc.json
+Removed artifacts/arx_node_HXm3_rnSc.json
+Removed artifacts/cluster_acc_0.json
+Removed artifacts/test_mxe_private_key.json
+Removed artifacts/reveal_contributions_10_v4_raw_circuit_0.json
+Removed artifacts/add_two_contributions_v4_raw_circuit_0.json
+Removed artifacts/arx_node_2AMC_Nfry.json
+Removed artifacts/operator_acc_2AMC_Nfry.json
+Removed artifacts/arx_mint.json
+Removed artifacts/mempool_acc.json
+Removed artifacts/wallet_acc_HXm3_rnSc.json
+Removed artifacts/arx_ata_HXm3_rnSc.json
+Removed artifacts/check_goal_reached_v4_raw_circuit_0.json
+Removed artifacts/mxe_acc.json
+Removed artifacts/mxe_keygen_comp_def.json
+Removed artifacts/arx_ata_2Qrw_SUPE.json
+Removed artifacts/wallet_acc_2Qrw_SUPE.json
+Clean completed successfully!
+Generating accounts with owner pubkey: 2QrwExUdu93o8mSdfEh6kvbNLTbN1UnVRrfyjQsDSUPE
+Creating genesis accounts...
+Starting anchor localnet...
+Waiting for solana localnet to come online at http://127.0.0.1:8899...
+Solana localnet is online ✔️
+Starting Arcium node(s)...
+Waiting for the arcium nodes to come online...
+Arcium nodes are online ✔️
+Solana localnet & Arx nodes are online! 🎉
+
+Found a 'test' script in the Anchor.toml. Running it as a test suite!
+
+Running test suite: "/Users/sumangiri/Desktop/final/mpc/backend/Anchor.toml"
+
+yarn run v1.22.22
+$ /Users/sumangiri/Desktop/final/mpc/backend/node_modules/.bin/ts-mocha -p ./tsconfig.json -t 1000000 'tests/**/*.ts'
+🔍 Analyzing Computation Definition Account...
+
+Computation Definition: add_two_contributions
+Offset: 2910679823
+Account: 9yBKJTpRzAkfZ8KHDgw1r81EewLpDks9BgAoWZxRfnPr
+
+🔍 Analyzing Devnet MXE Account...
+
+Arcium Account Addresses:
+=========================
+Arcium Program: BKck65TgoKRokMjQM3datB9oRwJ8rAj2jxPXvHXUvcL6
+Staking Pool (Fee Pool): DXHqHhBGNM58RLk438UiEbGe9137A7zJc6JHKN3qMZoB
+Clock Account: FHriyvoZotYiFnbUzKFjzRSb2NiaC8RPWY7jtKuKhg65
+🔍 Checking Computation Account State...
+
+Computation Offset: 1761670625926
+Computation Account: ADruHcw2CPeKfXmbJKmXHp8eZ4ZGu5g8KwkeCzBURWir
+
+🔍 Current Cluster Configuration:
+================================
+Cluster from offset 1078779259: CaTxKKfdaoCM7ZzLj5dLzrrmnsg9GJb5iYzRzCk8VEu3
+Hardcoded working cluster: GgSqqAyH7AVY3Umcv8NvncrjFaNJuQLmxzxFxPoPW2Yd
+
+Which one is the test currently using?
+🔍 Checking Instruction Discriminators...
+
+Program ID: 4rWRT9mgwWdz9GDpsYeZPZ6arBPCsjG2rquAbLpxGa4i
+Available methods: [
+  'addTwoContributions',
+  'addTwoContributionsV4Callback',
+  'checkGoalReached',
+  'checkGoalReachedV4Callback',
+  'initAddTwoContributionsCompDef',
+  'initCheckGoalReachedCompDef',
+  'initRevealContributions10CompDef',
+  'initRevealContributions5CompDef'
+]
+
+✅ addTwoContributions method found
+Method exists: true
+Method keys: []
+
+IDL Info:
+IDL name: undefined
+IDL version: undefined
+❌ add_two_contributions instruction NOT found in IDL
+Available instructions: [
+  'addTwoContributions',
+  'addTwoContributionsV4Callback',
+  'checkGoalReached',
+  'checkGoalReachedV4Callback',
+  'initAddTwoContributionsCompDef',
+  'initCheckGoalReachedCompDef',
+  'initRevealContributions10CompDef',
+  'initRevealContributions5CompDef'
+]
+
+🔍 Expected Cluster Account Analysis:
+=====================================
+MXE Account: G8xQgM6XgiU18brB7QnuL2R1WpXF8VnnCEjbr1Dtyo76
+Expected Cluster PDA: CjQeg5NNXXfqvfugnafakJXiMtkpaqV7WVbMvo1UJecK
+Bump: 251
+
+This is the EXACT cluster your Rust program expects!
+Any other cluster will fail the address constraint.
+🔍 Debugging Instruction Building...
+
+✅ Program loaded: 4rWRT9mgwWdz9GDpsYeZPZ6arBPCsjG2rquAbLpxGa4i
+✅ Method exists: true
+
+🔄 Attempting method call...
+✅ Method call successful - builder created
+🔄 Adding accounts...
+✅ Accounts added successfully
+🔄 Building instruction...
+✅ Instruction built successfully!
+Data length: 128
+Discriminator: [
+  152, 133,  59, 215,
+   16, 152, 184,  69
+]
+🔍 Debugging PDA Derivation
+
+Method 1: Arcium Client Functions
+Circuit name: add_two_contributions
+Offset: 2910679823
+Client PDA: 9yBKJTpRzAkfZ8KHDgw1r81EewLpDks9BgAoWZxRfnPr
+
+Method 2: Manual Derivation (b"ComputationDefinitionAccount", mxe_program_id, offset)
+Base seed: 436f6d7075746174696f6e446566696e6974696f6e4163636f756e74
+Offset buffer: 0f737dad
+Manual PDA: 9yBKJTpRzAkfZ8KHDgw1r81EewLpDks9BgAoWZxRfnPr
+
+Method 3: Calculate offset from scratch
+SHA256 hash: 0f737dade64b41b007bc1761b7240d34477bdccbe40a18b4a453cddabc8bccc2
+Calculated offset: 2910679823
+Calculated PDA: 9yBKJTpRzAkfZ8KHDgw1r81EewLpDks9BgAoWZxRfnPr
+
+Comparison:
+Client PDA matches Manual PDA: true
+Client PDA matches Calculated PDA: true
+Manual PDA matches Calculated PDA: true
+
+Expected by Arcium program: 7usj6cS5NrJkoeAKG1wzG8YrxUFdsS9FR2inVxG2XSL7
+Client PDA matches expected: false
+Manual PDA matches expected: false
+Calculated PDA matches expected: false
+🔍 Debugging Anchor Workspace Loading...
+
+✅ Provider loaded successfully
+Workspace keys: [ 'savingsMxe' ]
+SavingsMxe in workspace: true
+✅ SavingsMxe program found in workspace
+Program ID: 4rWRT9mgwWdz9GDpsYeZPZ6arBPCsjG2rquAbLpxGa4i
+IDL methods: [
+  'addTwoContributions',
+  'addTwoContributionsV4Callback',
+  'checkGoalReached',
+  'checkGoalReachedV4Callback',
+  'initAddTwoContributionsCompDef',
+  'initCheckGoalReachedCompDef',
+  'initRevealContributions10CompDef',
+  'initRevealContributions5CompDef'
+]
+🔍 MXE Account Analysis:
+========================
+Fresh Program: 4rWRT9mgwWdz9GDpsYeZPZ6arBPCsjG2rquAbLpxGa4i
+Correct MXE for Fresh Program: 6YmsnnM7Ky5fremALz4Fdk9eymwb9quzzaCP2pYLBhDX
+
+Old Program: EM5iYTHRUEKSSv7vkwHpvd2KjpMGKzBqCYD4h7TwQmJF
+Old MXE: G8xQgM6XgiU18brB7QnuL2R1WpXF8VnnCEjbr1Dtyo76
+
+Test is using: G8xQgM6XgiU18brB7QnuL2R1WpXF8VnnCEjbr1Dtyo76
+Match with old MXE? true
+
+✅ UPDATE TEST TO USE: 6YmsnnM7Ky5fremALz4Fdk9eymwb9quzzaCP2pYLBhDX
+🚀 Initializing Computation Definitions on Devnet...
+
+📝 Program ID: 4rWRT9mgwWdz9GDpsYeZPZ6arBPCsjG2rquAbLpxGa4i
+👤 Owner: 2QrwExUdu93o8mSdfEh6kvbNLTbN1UnVRrfyjQsDSUPE
+🔐 MXE Account: 6YmsnnM7Ky5fremALz4Fdk9eymwb9quzzaCP2pYLBhDX
+
+⏳ Initializing add_two_contributions_v4...
+  MXE Account: 6YmsnnM7Ky5fremALz4Fdk9eymwb9quzzaCP2pYLBhDX
+  Comp Def Account: 2mNRC9TJdqLgfM7xYYQLETR74kBwKaVTtknVXgeCNnTz
+🔐 Initializing MXE Keygen on Devnet...
+
+📋 Configuration:
+   Program ID: 4rWRT9mgwWdz9GDpsYeZPZ6arBPCsjG2rquAbLpxGa4i
+   MXE Account: 6YmsnnM7Ky5fremALz4Fdk9eymwb9quzzaCP2pYLBhDX
+   RPC: https://api.devnet.solana.com
+
+⏳ Running keygen computation (this will trigger MPC)...
+   This may take 10-30 seconds for MPC nodes to execute...
+
+🚀 Initializing MXE on localnet...
+
+📝 Program ID: 4rWRT9mgwWdz9GDpsYeZPZ6arBPCsjG2rquAbLpxGa4i
+👤 Payer: 2QrwExUdu93o8mSdfEh6kvbNLTbN1UnVRrfyjQsDSUPE
+🔑 MXE PDA: 6YmsnnM7Ky5fremALz4Fdk9eymwb9quzzaCP2pYLBhDX
+🌐 Connected to devnet
+📝 Program ID: 4rWRT9mgwWdz9GDpsYeZPZ6arBPCsjG2rquAbLpxGa4i
+👤 Owner: 2QrwExUdu93o8mSdfEh6kvbNLTbN1UnVRrfyjQsDSUPE
+
+🔑 Getting MXE public key...
+🔍 Reverse Engineering PDA Seeds
+
+Target PDA: 7usj6cS5NrJkoeAKG1wzG8YrxUFdsS9FR2inVxG2XSL7
+Program ID: 4rWRT9mgwWdz9GDpsYeZPZ6arBPCsjG2rquAbLpxGa4i
+Arcium Program: BKck65TgoKRokMjQM3datB9oRwJ8rAj2jxPXvHXUvcL6
+MXE Account: G8xQgM6XgiU18brB7QnuL2R1WpXF8VnnCEjbr1Dtyo76
+
+Circuit: add_two_contributions
+Offset: 2910679823
+
+Testing different seed combinations:
+
+1. [baseSeed, programId, offset]: 9yBKJTpRzAkfZ8KHDgw1r81EewLpDks9BgAoWZxRfnPr (bump: 253)
+2. [baseSeed, mxeAccount, offset]: 9yKHp4DMzgKyT6h8pUhWdho8ReoguEo99nCUoZ4M8zZk ✅
+3. [baseSeed, programId, hash[0:4]]: 9yBKJTpRzAkfZ8KHDgw1r81EewLpDks9BgAoWZxRfnPr (bump: 253)
+4. [baseSeed, programId, circuitName]: G8V7vmSFaLZ8NV8x3fy2Mrg9RjVSzq4F85SWNx41Z6cR ✅
+5. [baseSeed, mxeAccount, circuitName]: DbWiwJX9YRWTNGZwgCP1DAY1UBjgBxdsA3Gja4oj9tN5 (bump: 252)
+6. ["computation_definition", programId, offset]: 2BUcspWtp3LfFavaeNnQvGFjexQiQgJUXVLx8GgLd3Hi ✅
+7. ["computation_definition", mxeAccount, offset]: 8dcbnjCzb9jSHY8dMg2HxU7oax2G7vJiYJvmbo1JL98V (bump: 254)
+8. [baseSeed, offset]: FCpuU7wPkSNGJpNEZaK8gf1mVGDoviRSeTScbJbQWQRn ✅
+Generated test x25519 keypair for localnet MXE:
+Public Key (hex): 8ea937851df22288b5e2bdf4bd9fdbfbd47613a3ebb1ddbc966ee9ea18000433
+Public Key (array): [
+  142, 169,  55, 133,  29, 242,  34,
+  136, 181, 226, 189, 244, 189, 159,
+  219, 251, 212, 118,  19, 163, 235,
+  177, 221, 188, 150, 110, 233, 234,
+   24,   0,   4,  51
+]
+
+✅ Test keypair saved to artifacts/test_mxe_private_key.json
+
+To use this in your MXE artifact:
+1. Update artifacts/mxe_acc.json
+2. Set the x25519Pubkey.set field to the public key array
+3. Restart the validator with the updated artifact
+🔍 Testing Localnet MXE Setup...
+
+✅ MXE Public Key (from test keypair): Uint8Array(32) [
+  142, 169,  55, 133,  29, 242,  34,
+  136, 181, 226, 189, 244, 189, 159,
+  219, 251, 212, 118,  19, 163, 235,
+  177, 221, 188, 150, 110, 233, 234,
+   24,   0,   4,  51
+]
+   Length: 32
+   Hex: 8ea937851df22288b5e2bdf4bd9fdbfbd47613a3ebb1ddbc966ee9ea18000433
+
+🔐 Testing Encryption...
+✅ Shared secret generated successfully!
+   Length: 32
+   Hex: 62799383bbd71f3714ad0d3232bbefde...
+
+🎉 SUCCESS! MXE public key is valid and encryption works!
+
+📝 Next Steps:
+   1. The MXE account is properly set up on localnet
+   2. Encryption with the MXE public key works
+   3. You can now test MPC computations (they will queue but won't execute without MPC nodes)
+
+⚠️  Note: Full MPC computation requires live MPC nodes
+   For full E2E testing, use devnet with active MPC cluster
+Updating MXE artifact with test public key...
+Public Key: [
+  142, 169,  55, 133,  29, 242,  34,
+  136, 181, 226, 189, 244, 189, 159,
+  219, 251, 212, 118,  19, 163, 235,
+  177, 221, 188, 150, 110, 233, 234,
+   24,   0,   4,  51
+]
+
+Original account data length: 102
+Original data (hex): 671a55fab39f11750114f881e6b8f338f8b9adb5be62bab550ec08e4414abf6b166a7275d57e8dec7d010000000001000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000100000001000000ff
+
+Updated account data length: 102
+Updated x25519Pubkey variant: 0
+Updated x25519Pubkey data: [
+  142, 169,  55, 133,  29, 242,  34,
+  136, 181, 226, 189, 244, 189, 159,
+  219, 251, 212, 118,  19, 163, 235,
+  177, 221, 188, 150, 110, 233, 234,
+   24,   0,   4,  51
+]
+
+✅ MXE artifact updated successfully!
+📝 File: artifacts/mxe_acc.json
+
+⚠️ Remember to restart the validator to load the updated artifact!
+🔍 Verifying Account Discriminators on Devnet...
+
+📋 Checking Accounts:
+
+🔍 V2 Circuit Offsets:
+
+add_two_contributions_v2:
+  Offset: 3653729030
+  Hex: 0xd9c77b06
+
+check_goal_reached_v2:
+  Offset: 2654568689
+  Hex: 0x9e3980f1
+
+reveal_contributions_5_v2:
+  Offset: 80213863
+  Hex: 0x4c7f767
+
+reveal_contributions_10_v2:
+  Offset: 2505118369
+  Hex: 0x955112a1
+
+(node:72398) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/sumangiri/Desktop/final/mpc/backend/tests/analyze_comp_def.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/sumangiri/Desktop/final/mpc/backend/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+  MXE E2E
+
+🔐 Step 1: Initializing MXE via keygen...
+
+❌ Error initializing computation definitions: AnchorError: AnchorError caused by account: mxe_account. Error Code: AccountNotInitialized. Error Number: 3012. Error Message: The program expected this account to be already initialized.
+    at AnchorError.parse (/Users/sumangiri/Desktop/final/mpc/backend/node_modules/@coral-xyz/anchor/src/error.ts:168:14)
+    at translateError (/Users/sumangiri/Desktop/final/mpc/backend/node_modules/@coral-xyz/anchor/src/error.ts:277:35)
+    at MethodsBuilder.rpc [as _rpcFn] (/Users/sumangiri/Desktop/final/mpc/backend/node_modules/@coral-xyz/anchor/src/program/namespace/rpc.ts:35:29)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5) {
+  errorLogs: [
+    'Program log: AnchorError caused by account: mxe_account. Error Code: AccountNotInitialized. Error Number: 3012. Error Message: The program expected this account to be already initialized.'
+  ],
+  logs: [
+    'Program 4rWRT9mgwWdz9GDpsYeZPZ6arBPCsjG2rquAbLpxGa4i invoke [1]',
+    'Program log: Instruction: InitAddTwoContributionsCompDef',
+    'Program log: AnchorError caused by account: mxe_account. Error Code: AccountNotInitialized. Error Number: 3012. Error Message: The program expected this account to be already initialized.',
+    'Program 4rWRT9mgwWdz9GDpsYeZPZ6arBPCsjG2rquAbLpxGa4i consumed 3409 of 200000 compute units',
+    'Program 4rWRT9mgwWdz9GDpsYeZPZ6arBPCsjG2rquAbLpxGa4i failed: custom program error: 0xbc4'
+  ],
+  error: {
+    errorCode: { code: 'AccountNotInitialized', number: 3012 },
+    errorMessage: 'The program expected this account to be already initialized',
+    comparedValues: undefined,
+    origin: 'mxe_account'
+  },
+  _programErrorStack: ProgramErrorStack {
+    stack: [
+      [PublicKey [PublicKey(4rWRT9mgwWdz9GDpsYeZPZ6arBPCsjG2rquAbLpxGa4i)]]
+    ]
+  }
+}
+AnchorError: AnchorError caused by account: mxe_account. Error Code: AccountNotInitialized. Error Number: 3012. Error Message: The program expected this account to be already initialized.
+    at AnchorError.parse (/Users/sumangiri/Desktop/final/mpc/backend/node_modules/@coral-xyz/anchor/src/error.ts:168:14)
+    at translateError (/Users/sumangiri/Desktop/final/mpc/backend/node_modules/@coral-xyz/anchor/src/error.ts:277:35)
+    at MethodsBuilder.rpc [as _rpcFn] (/Users/sumangiri/Desktop/final/mpc/backend/node_modules/@coral-xyz/anchor/src/program/namespace/rpc.ts:35:29)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5) {
+  errorLogs: [
+    'Program log: AnchorError caused by account: mxe_account. Error Code: AccountNotInitialized. Error Number: 3012. Error Message: The program expected this account to be already initialized.'
+  ],
+  logs: [
+    'Program 4rWRT9mgwWdz9GDpsYeZPZ6arBPCsjG2rquAbLpxGa4i invoke [1]',
+    'Program log: Instruction: InitAddTwoContributionsCompDef',
+    'Program log: AnchorError caused by account: mxe_account. Error Code: AccountNotInitialized. Error Number: 3012. Error Message: The program expected this account to be already initialized.',
+    'Program 4rWRT9mgwWdz9GDpsYeZPZ6arBPCsjG2rquAbLpxGa4i consumed 3409 of 200000 compute units',
+    'Program 4rWRT9mgwWdz9GDpsYeZPZ6arBPCsjG2rquAbLpxGa4i failed: custom program error: 0xbc4'
+  ],
+  error: {
+    errorCode: { code: 'AccountNotInitialized', number: 3012 },
+    errorMessage: 'The program expected this account to be already initialized',
+    comparedValues: undefined,
+    origin: 'mxe_account'
+  },
+  _programErrorStack: ProgramErrorStack {
+    stack: [
+      [PublicKey [PublicKey(4rWRT9mgwWdz9GDpsYeZPZ6arBPCsjG2rquAbLpxGa4i)]]
+    ]
+  }
+}
+✅ mxeAccount: 6YmsnnM7Ky5fremALz4Fdk9eymwb9quzzaCP2pYLBhDX
+   Owner: BKck65TgoKRokMjQM3datB9oRwJ8rAj2jxPXvHXUvcL6
+   Data Length: 150
+   Discriminator: 671a55fab39f1175
+   Discriminator Array: [103, 26, 85, 250, 179, 159, 17, 117]
+
+✅ Computation account does NOT exist yet (good!)
+   This means it will be created fresh during the transaction.
+✅ SUCCESS! MXE Public Key Initialized!
+   Public Key: 9cca89d29365cda68e6eea5991c174dcef08437c88698b6d47fdb75f8e15bd77
+   Length: 32
+
+🎉 MXE is now ready for MPC computations!
+
+📝 Next Steps:
+   1. The MXE x25519 public key is now set
+   2. You can now run MPC computations (add_two_contributions, check_goal_reached, etc.)
+   3. Run the E2E test to verify the full MPC flow
+Attempt 1 failed: MXE account not found
+
+✅ MXE account already exists!
+   Owner: BKck65TgoKRokMjQM3datB9oRwJ8rAj2jxPXvHXUvcL6
+   Data length: 150
+✅ MXE initialized with public key: 9cca89d29365cda68e6eea5991c174dcef08437c88698b6d47fdb75f8e15bd77
+
+📋 Step 2: Initializing computation definitions...
+✅ Computation Definition EXISTS
+
+Account Details:
+   Owner: BKck65TgoKRokMjQM3datB9oRwJ8rAj2jxPXvHXUvcL6
+   Expected Owner: BKck65TgoKRokMjQM3datB9oRwJ8rAj2jxPXvHXUvcL6 (Arcium)
+   Data Length: 104
+   Lamports: 1614720
+
+Discriminator:
+   Hex: f5b0d9ddfd68acc8
+   Array: [245, 176, 217, 221, 253, 104, 172, 200]
+   Expected for ComputationDefinition: f5b0d9ddfd68acc8
+   ✅ Discriminator is CORRECT!
+
+Full Account Data (first 64 bytes):
+f5b0d9ddfd68acc801f93f8aea00bce4b8c2996959a01edb951310dae6cb810f978a58cb918df882ea0100000000000000009aad130006000000070506070506
+
+Attempting to parse account structure:
+   Callback Program: 8hqxVNvcBWK1HWLuWDFjbufTF2s8vB6gweRidXRdHys
+   Expected: 4rWRT9mgwWdz9GDpsYeZPZ6arBPCsjG2rquAbLpxGa4i
+   ⚠️  MISMATCH! This could be the issue!
+✅ MXE Account Data:
+   Authority: HmxiRU21VKdhgmjSWkujqreCaSayCVW1p9EmtHrvfzoT
+   Cluster: 1078779259
+   x25519Pubkey: {
+  unset: {
+    '0': [
+      156, 202, 137, 210, 147, 101, 205,
+      166, 142, 110, 234,  89, 145, 193,
+      116, 220, 239,   8,  67, 124, 136,
+      105, 139, 109,  71, 253, 183,  95,
+      142,  21, 189, 119
+    ],
+    '1': [ true, true ]
+  }
+}
+   Fallback Clusters: []
+   Rejected Clusters: []
+   Computation Definitions: [
+           1, 2910679823,
+   642212460, 2041710925,
+   707308662, 3653729030,
+  2654568689,   80213863,
+  2505118369, 3114021658,
+  3220464371, 4290655749,
+   205532907
+]
+
+❌ MXE Public Key is UNSET!
+   This means keygen has not been run yet.
+   You need to run a keygen computation first.
+✅ clusterAccount: CaTxKKfdaoCM7ZzLj5dLzrrmnsg9GJb5iYzRzCk8VEu3
+   Owner: BKck65TgoKRokMjQM3datB9oRwJ8rAj2jxPXvHXUvcL6
+   Data Length: 8572
+   Discriminator: ece176e4ad6a123c
+   Discriminator Array: [236, 225, 118, 228, 173, 106, 18, 60]
+
+✅ mempoolAccount: BmmUxjSYWMseKR6MsrKkZPZmi7jXHGSfwMKjznS4A9hR
+   Owner: BKck65TgoKRokMjQM3datB9oRwJ8rAj2jxPXvHXUvcL6
+   Data Length: 8696
+   Discriminator: b021436c49876ea6
+   Discriminator Array: [176, 33, 67, 108, 73, 135, 110, 166]
+
+✅ executingPool: CMc5CU3uMkztiHXSamw2Yoz2ricFTkP4ezi5k6z3zzat
+   Owner: BKck65TgoKRokMjQM3datB9oRwJ8rAj2jxPXvHXUvcL6
+   Data Length: 80
+   Discriminator: 50f5055a9abdbeac
+   Discriminator Array: [80, 245, 5, 90, 154, 189, 190, 172]
+
+✅ compDefAccount: 9yBKJTpRzAkfZ8KHDgw1r81EewLpDks9BgAoWZxRfnPr
+   Owner: BKck65TgoKRokMjQM3datB9oRwJ8rAj2jxPXvHXUvcL6
+   Data Length: 104
+   Discriminator: f5b0d9ddfd68acc8
+   Discriminator Array: [245, 176, 217, 221, 253, 104, 172, 200]
+
+Attempt 2 failed: MXE account not found
+✅ poolAccount: DXHqHhBGNM58RLk438UiEbGe9137A7zJc6JHKN3qMZoB
+   Owner: BKck65TgoKRokMjQM3datB9oRwJ8rAj2jxPXvHXUvcL6
+   Data Length: 9
+   Discriminator: c595dfc75649e34d
+   Discriminator Array: [197, 149, 223, 199, 86, 73, 227, 77]
+
+✅ clockAccount: FHriyvoZotYiFnbUzKFjzRSb2NiaC8RPWY7jtKuKhg65
+   Owner: BKck65TgoKRokMjQM3datB9oRwJ8rAj2jxPXvHXUvcL6
+   Data Length: 33
+   Discriminator: 98ab9ec34b3d3308
+   Discriminator Array: [152, 171, 158, 195, 75, 61, 51, 8]
+
+
+🔍 Analysis:
+   - Check if all accounts exist
+   - Verify owners match expected programs
+   - Compare discriminators with IDL expectations
+Attempt 3 failed: MXE account not found
+Attempt 4 failed: MXE account not found
+Attempt 5 failed: MXE account not found
+Attempt 6 failed: MXE account not found
+Attempt 7 failed: MXE account not found
+Attempt 8 failed: MXE account not found
+Attempt 9 failed: MXE account not found
+Attempt 10 failed: MXE account not found
+Error: Failed to fetch MXE public key after 10 attempts
+    at /Users/sumangiri/Desktop/final/mpc/backend/tests/manual_mpc_test.ts:168:15
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/sumangiri/Desktop/final/mpc/backend/tests/manual_mpc_test.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+⚠️  Attempt 1 failed: Transaction was not confirmed in 30.00 seconds. It is unknown if it succeeded or failed. Check signature Bt3x5iWpwL7KfTahMKd8AUvtArUyww1WWGaWp6w1M6FKEmv2axgCgii8XvEveGLMcj2vmkvrQe3uMeTpk3bBKFc using the Solana Explorer or CLI tools.
+   Retrying in 2 seconds...
+⚠️  Attempt 2 failed: Transaction was not confirmed in 30.00 seconds. It is unknown if it succeeded or failed. Check signature Bt3x5iWpwL7KfTahMKd8AUvtArUyww1WWGaWp6w1M6FKEmv2axgCgii8XvEveGLMcj2vmkvrQe3uMeTpk3bBKFc using the Solana Explorer or CLI tools.
+   Retrying in 2 seconds...
+⚠️  Attempt 3 failed: Transaction was not confirmed in 30.00 seconds. It is unknown if it succeeded or failed. Check signature Bt3x5iWpwL7KfTahMKd8AUvtArUyww1WWGaWp6w1M6FKEmv2axgCgii8XvEveGLMcj2vmkvrQe3uMeTpk3bBKFc using the Solana Explorer or CLI tools.
+    1) initializes MXE and computation definitions
+📋 Fetching MXE public key from localnet...
+✅ MXE Public Key: 9cca89d29365cda68e6eea5991c174dcef08437c88698b6d47fdb75f8e15bd77
+
+
+📋 Account Addresses for add_two_contributions:
+  computationOffset: 9680739808068525123
+  computationAccount: Fa2d2DubbSZvgxtZL2rA2FF7gHqLfdvnagX2WcX3R3RS
+  clusterAccount: GgSqqAyH7AVY3Umcv8NvncrjFaNJuQLmxzxFxPoPW2Yd
+  mxeAccount: 6YmsnnM7Ky5fremALz4Fdk9eymwb9quzzaCP2pYLBhDX
+  mempoolAccount: BmmUxjSYWMseKR6MsrKkZPZmi7jXHGSfwMKjznS4A9hR
+  executingPool: CMc5CU3uMkztiHXSamw2Yoz2ricFTkP4ezi5k6z3zzat
+  compDefAccount: 2mNRC9TJdqLgfM7xYYQLETR74kBwKaVTtknVXgeCNnTz
+  signPdaAccount: AcJhs61U5FL68JALEjD76LrFikk7GSP878UBXJLF1gXb
+
+add_two_contributions RPC failed: Transaction was not confirmed in 30.00 seconds. It is unknown if it succeeded or failed. Check signature QCwyVfEFuEbmAprrmkgxkwGJabveWuvNQZ4pHXxs4G8LcMww1QmBdxZgapcEf3cvWJGUBWbSbjEYXSf3e3pcDLh using the Solana Explorer or CLI tools.
+    2) aggregates two encrypted values and checks goal
+
+
+  0 passing (2m)
+  2 failing
+
+  1) MXE E2E
+       initializes MXE and computation definitions:
+     TransactionExpiredTimeoutError: Transaction was not confirmed in 30.00 seconds. It is unknown if it succeeded or failed. Check signature Bt3x5iWpwL7KfTahMKd8AUvtArUyww1WWGaWp6w1M6FKEmv2axgCgii8XvEveGLMcj2vmkvrQe3uMeTpk3bBKFc using the Solana Explorer or CLI tools.
+      at Connection.confirmTransactionUsingLegacyTimeoutStrategy (node_modules/@solana/web3.js/src/connection.ts:4248:15)
+      at Connection.confirmTransaction (node_modules/@solana/web3.js/src/connection.ts:3859:14)
+      at sendAndConfirmRawTransaction (node_modules/@coral-xyz/anchor/src/provider.ts:420:11)
+      at AnchorProvider.sendAndConfirm (node_modules/@coral-xyz/anchor/src/provider.ts:167:14)
+      at MethodsBuilder.rpc [as _rpcFn] (node_modules/@coral-xyz/anchor/src/program/namespace/rpc.ts:29:16)
+
+  2) MXE E2E
+       aggregates two encrypted values and checks goal:
+     TransactionExpiredTimeoutError: Transaction was not confirmed in 30.00 seconds. It is unknown if it succeeded or failed. Check signature QCwyVfEFuEbmAprrmkgxkwGJabveWuvNQZ4pHXxs4G8LcMww1QmBdxZgapcEf3cvWJGUBWbSbjEYXSf3e3pcDLh using the Solana Explorer or CLI tools.
+      at Connection.confirmTransactionUsingLegacyTimeoutStrategy (node_modules/@solana/web3.js/src/connection.ts:4248:15)
+      at Connection.confirmTransaction (node_modules/@solana/web3.js/src/connection.ts:3859:14)
+      at sendAndConfirmRawTransaction (node_modules/@coral-xyz/anchor/src/provider.ts:420:11)
+      at AnchorProvider.sendAndConfirm (node_modules/@coral-xyz/anchor/src/provider.ts:167:14)
+      at MethodsBuilder.rpc [as _rpcFn] (node_modules/@coral-xyz/anchor/src/program/namespace/rpc.ts:29:16)
+
+
+
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ Container artifacts-arx-node-1-1  Stopping
+ Container artifacts-arx-node-0-1  Stopping
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ Container artifacts-arx-node-0-1  Stopped
+ Container artifacts-arx-node-1-1  Stopped
+
+thread 'main' panicked at /Users/runner/work/arcium-tooling/arcium-tooling/cli/src/lib.rs:579:17:
+Test failed
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900
+ws error: connect ECONNREFUSED 127.0.0.1:8900

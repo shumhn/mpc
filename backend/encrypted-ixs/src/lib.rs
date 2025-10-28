@@ -10,7 +10,7 @@ mod circuits {
 
     /// Reveal 5 individual encrypted contributions
     #[instruction]
-    pub fn reveal_contributions_5(
+    pub fn reveal_contributions_5_v4(
         c1: Enc<Shared, u64>,
         c2: Enc<Shared, u64>,
         c3: Enc<Shared, u64>,
@@ -28,7 +28,7 @@ mod circuits {
 
     /// Reveal 10 individual encrypted contributions
     #[instruction]
-    pub fn reveal_contributions_10(
+    pub fn reveal_contributions_10_v4(
         c1: Enc<Shared, u64>,
         c2: Enc<Shared, u64>,
         c3: Enc<Shared, u64>,
@@ -60,7 +60,7 @@ mod circuits {
 
     /// Add two encrypted contributions (for partial aggregation)
     #[instruction]
-    pub fn add_two_contributions(
+    pub fn add_two_contributions_v4(
         amount1: Enc<Shared, u64>,
         amount2: Enc<Shared, u64>,
     ) -> u64 {
@@ -72,7 +72,7 @@ mod circuits {
 
     /// Check if aggregate exceeds target (for goal completion check)
     #[instruction]
-    pub fn check_goal_reached(
+    pub fn check_goal_reached_v4(
         current_total: Enc<Shared, u64>,
         target: u64,
     ) -> bool {
